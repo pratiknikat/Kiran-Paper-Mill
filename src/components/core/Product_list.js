@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import "../product_list.css";
 
 export default function Project_list(Props)
  {
