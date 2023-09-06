@@ -1,0 +1,7 @@
+.box-image{
+    height: 474px;
+    width: 365px;
+    box-shadow: grey 0px 0px 16px 0px;
+    transition: 2s;
+}
+
