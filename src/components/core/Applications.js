@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.css'
+import '../assets/css/Home.css';
 import BoxTypeBanner from "../images/box-type.png";
 import Box from './Box';
 

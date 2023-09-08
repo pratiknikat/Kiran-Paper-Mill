@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect } from 'react';
-import './Box.css'
+import '../assets/css/Box.css';
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from "../images/kiran-paper-logo.png";
-import './Header.css';
+import '../assets/css/Header.css';
 export default function Header() {
   return (
     <div>

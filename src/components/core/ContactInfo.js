@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React, { Children } from 'react';
 
 
 export const ContactInfo = (props) => {

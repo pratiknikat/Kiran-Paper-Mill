@@ -1,11 +1,11 @@
-import React from 'react'
-import "../assets/css/contactus.css"
-import {CiEdit} from "react-icons/ci"
-import {HiLocationMarker} from "react-icons/hi"
-import {BiSolidPhone} from "react-icons/bi"
-import {SiMinutemailer} from "react-icons/si"
-import {MdOutlineMail} from "react-icons/md"
-import { ContactInfo } from '../components/core/ContactInfo'
+import React from 'react';
+import "../assets/css/contactus.css";
+import {CiEdit} from "react-icons/ci";
+import {HiLocationMarker} from "react-icons/hi";
+import {BiSolidPhone} from "react-icons/bi";
+import {SiMinutemailer} from "react-icons/si";
+import {MdOutlineMail} from "react-icons/md";
+import { ContactInfo } from '../components/core/ContactInfo';
 
 export const ContactPage = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../product_Information.css";
+import "../assets/css/product_Information.css";
 
 export default function Product_Information(Props)
  

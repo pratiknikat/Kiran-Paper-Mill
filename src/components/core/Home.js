@@ -5,7 +5,7 @@ import Kappa from "../images/grey-kappa.png";
 import PaperBoard from "../images/paper-board.png";
 import Robot from "../images/Ellipse 4.png";
 import Boxes from "../images/boxes.png";
-import './Home.css';
+import '../assets/css/Home.css';
 import CircleImage from './CircleImage';
 import BoxType from './Applications';
 import Map from './Map'

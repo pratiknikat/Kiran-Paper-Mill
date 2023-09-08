@@ -1,6 +1,6 @@
 import React from 'react'
 import BigLogo from '../images/Big-Logo.png';
-import './Footer.css'
+import '../assets/css/Footer.css'
 import WhatsApp from '../images/whatsapp_icon.png';
 import Call from '../images/call.png';
 import Mail from '../images/mail.png';
