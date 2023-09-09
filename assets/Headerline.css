@@ -1,0 +1,34 @@
+ /* css of whole body */
+ * 
+ {
+       box-sizing:border-box; 
+       font-family:Montserrat;
+ } 
+ /* css to body content */
+ body 
+ {
+    margin-top:100px;
+    width:100%;
+    padding:0px;
+    
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;  
+ }
+ /* Header part of product page */
+ .Product-header 
+ {
+     text-align:center;
+     margin-top:50px;
+ }
+ /* product line content */
+ .Product-header span 
+ {
+    color: #128908;
+    font-size: 25px; 
+    margin:0px;
+    background-color:#fff;
+    padding:6px 4px;
+    position: relative;
+    bottom:42px;   
+ }
