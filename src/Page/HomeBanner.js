@@ -6,10 +6,10 @@ import PaperBoard from "../images/paper-board.png";
 import Robot from "../images/Ellipse 4.png";
 import Boxes from "../images/boxes.png";
 import '../assets/Home.css';
-import CircleImage from "../components/CircleImage"
-import BoxType from "../components/Applications"
-import Map from "../components/Map"
-import Footer from "../components/Footer"
+import CircleImage from "../Components/CircleImage"
+import BoxType from "../Components/Applications"
+import Map from "../Components/Map"
+
 export default function HomeBanner() {
   return (
     <div>
