@@ -1,89 +1,102 @@
 import React from 'react'
-import "../assets/Contact.css"
-import {CiEdit} from "react-icons/ci"
-import {HiLocationMarker} from "react-icons/hi";
-import {BiSolidPhone} from "react-icons/bi";
-import {SiMinutemailer} from "react-icons/si";
-import {MdOutlineMail} from "react-icons/md";
-import { ContactInfo } from '../Components/ContactInfo.js';
-
-export default function ContactPage() {
+import "../assets/contactUs/style.css"
+import Map from '../components/Map'
+const ContactPage = () => {
   return (
-    <div> 
-       <div >
-        <h1 className="text-center">Contact Us</h1><br/>
-
-        <div style={{alignItems:"start",textAlign:"start", display:"flex"}}>
-          <div>
-              <h3><CiEdit/>  CONTACT INFORMATION</h3>
-              <ContactInfo icon={<HiLocationMarker/>} title="ADDRESS">
-                 <pre>
-                  Kiran Paper & Board Industries <br/>
-                  Datala-443102, Buldhana Road,<br/>
-                  Tal : Malkapur, Dis : Buldhana<br/>
-                  India
-                 </pre>
-              </ContactInfo>
-
-
-              <ContactInfo icon={<BiSolidPhone/>} title="PHONE NUMBERS">
-                 <pre>
-                  Phone Numbers : 9822699629 <br/>
-                                  9356652829<br/>
-                  
-                 </pre>
-              </ContactInfo>
-
-            
-              <ContactInfo icon={<SiMinutemailer/>} title="EMAIL ADDRESS">
-                 <pre>
-                  Email Address : kiranpapermill@gmail.com <br/>
-                 
-                 </pre>
-              </ContactInfo>
-
-            
-             
-          </div>
-
-          <div>
-          <form class="w-full max-w-sm">
-            <div class="md:flex md:items-center mb-6">
-              <div class="md:w-1/3">
-                <label class="block text-green-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
-                  Company Name : 
-                </label>
-              </div>
-              <div class="md:w-2/3">
-                <input class="bg-gray-200 appearance-none border-2 border-green-200 rounded w-full py-2 px-4 text-green-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" id="inline-full-name" type="text"/>
+    <div>
+      <section className="ftco-section">
+        <div className="container">
+          
+          <div className="row justify-content-center">
+            <div className="col-md-12">
+              <div className="wrapper">
+                <div className="row no-gutters">
+                  <div className="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
+                    <div className="contact-wrap w-100 p-md-5 p-4">
+                      <h3 className="mb-4">Get in touch</h3>
+                      <div id="form-message-warning" className="mb-4"></div> 
+                      <form method="POST" id="contactForm" name="contactForm" className="contactForm">
+                        <div className="row">
+                          <div className="col-md-6">
+                            <div className="form-group">
+                              <label className="label" for="name">Full Name</label>
+                              <input type="text" className="form-control" name="name" id="name" placeholder="Name" />
+                            </div>
+                          </div>
+                          <div className="col-md-6"> 
+                            <div className="form-group">
+                              <label className="label" for="email">Email Address</label>
+                              <input type="email" className="form-control" name="email" id="email" placeholder="Email" />
+                            </div>
+                          </div>
+                          <div className="col-md-12">
+                            <div className="form-group">
+                              <label className="label" for="subject">Subject</label>
+                              <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" />
+                            </div>
+                          </div>
+                          <div className="col-md-12">
+                            <div className="form-group">
+                              <label className="label" for="#">Message</label>
+                              <textarea name="message" className="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                            </div>
+                          </div>
+                          <div className="col-md-12">
+                            <div className="form-group">
+                              <input type="submit" value="Send Message" className="btn btn-primary"  />
+                              <div className="submitting"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-5 d-flex align-items-stretch">
+                    <div className="info-wrap bg-primary w-100 p-md-5 p-4">
+                      <h3>Let's get in touch</h3>
+                      <p className="mb-4">We're open for any suggestion or just to have a chat</p>
+                      <div className="dbox w-100 d-flex align-items-start">
+                        <div className="icon d-flex align-items-center justify-content-center">
+                          <span className="fa fa-map-marker"></span>
+                        </div>
+                        <div className="text pl-3 text-align:start">
+                          <p><span>Address:</span> Kiran Paper & Board Industries Datala-443102, Buldhana Road , Taluka Malkapur, District Buldhana , India</p>
+                        </div>
+                      </div>
+                      <div className="dbox w-100 d-flex align-items-center">
+                        <div className="icon d-flex align-items-center justify-content-center">
+                          <span className="fa fa-phone"></span>
+                        </div>
+                        <div className="text pl-3">
+                          <p><span>Phone:</span> <a href="tel://9822699629">+91 9822699629 </a> <br></br> <a href="tel://9356652829">+91 9356652829 </a></p>
+                        </div>
+                      </div>
+                      <div className="dbox w-100 d-flex align-items-center">
+                        <div className="icon d-flex align-items-center justify-content-center">
+                          <span className="fa fa-paper-plane"></span>
+                        </div>
+                        <div className="text pl-3 d-flex align-items-start justify-content-start">
+                          <p><span>Email:</span> <a href="mailto:kiranpapermill@gmail.com">kiranpapermill@gmail.com</a></p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="md:flex md:items-center mb-6">
-              <div class="md:w-1/3">
-                <label class="block text-green-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-password">
-                  Password
-                </label>
-              </div>
-              <div class="md:w-2/3">
-                <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-green-500" id="inline-password" type="password" placeholder="******************"/>
-              </div>
-            </div>
-           
-            <div class="md:flex md:items-center">
-              <div class="md:w-1/3"></div>
-              <div class="md:w-2/3">
-                <button class="shadow bg-green-500 hover:bg-green-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="button">
-                  Sign Up
-                </button>
-            </div>
-            </div>
-          </form>
           </div>
         </div>
+      </section>
+
+      <section>
+        <div style={{textAlign:"center"}}>
+          {<Map/>}
+        </div>
         
+      </section>
     </div>
-      </div>
   )
 }
 
- 
+export default ContactPage

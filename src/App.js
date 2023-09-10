@@ -2,7 +2,7 @@ import { Routes,Route } from 'react-router-dom';
 import './App.css';
 import ContactPage from './Page/ContactPage.js';
 import HomeBanner from './Page/HomeBanner.js';
-import Header from "./Components/Header.js";
+import Header from "./components/Header"
 import Product from "./Page/Product_list.js";
 import About from "./Page/About.js";
 import Qualified from "./Page/Qualified.js";
