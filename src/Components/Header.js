@@ -8,7 +8,7 @@ export default function Header() {
       <nav className='nav-bar'>
         <img src={Logo}/>
         <ul>
-            <li><Link to="/Home">HOME</Link></li>
+            <li><Link to="/">HOME</Link></li>
             <li><Link to="/About">ABOUT US</Link></li>
             <li><Link to="/Product">PRODUCT</Link></li>
             <li><Link to="/Qualified">QUALITY ASSURANCE</Link></li>
