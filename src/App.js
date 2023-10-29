@@ -6,6 +6,7 @@ import Header from "./Components/Header"
 import Product from "./Page/Product_list.js";
 import About from "./Page/About.js";
 import Qualified from "./Page/Qualified.js";
+import toast, { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
         {/* link to homepage */}
         <Route path="/" element={<HomeBanner/>} />
       </Routes>
+      <Toaster />
     </div>
+
   );
 }
 
