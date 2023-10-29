@@ -147,4 +147,52 @@
     align-items: flex-start;
     margin-top: -550px;
     margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+/* Size 1200 */
+@media only screen and (max-width: 1200px){
+    #p1{
+        margin-top: 100px;
+    }
+}
+
+/* Size 1000 */
+@media (max-width:1000px){
+    .banner h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-top: 80px;
+    }
+    .banner h2 {
+        font-size: 20px;
+    }
+    .banner-button {
+        width: 240px;
+        font-size: 18px;
+        left: 40%;
+    }
+    #p1{
+        margin-top: 200px;
+        font-size: 22px;
+    }
+    #p2 {
+        font-size: 59px;
+    }
+}
+
+/* Size 800 */
+@media (max-width:800px){
+    .banner h1 {
+        margin-top: 140px;
+    }
+    .banner-button {
+        left: 37%;
+    }
+    #p1{
+        margin-top: 250px;
+    }
+    #p2 {
+        font-size: 55px;
+    }
 }
