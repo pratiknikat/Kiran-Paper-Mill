@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../assets/contactUs/style.css";
 import Map from "../Components/Map";
 import { toast } from "react-hot-toast";
+import Footer from "../Components/Footer";
 
 const ContactPage = () => {
   const [name, setName] = useState("");
@@ -180,9 +181,7 @@ const ContactPage = () => {
         </div>
       </section>
 
-      <section>
-        <div style={{ textAlign: "center" }}>{<Map />}</div>
-      </section>
+      <Footer/>
     </div>
   );
 };

@@ -19,8 +19,6 @@ function App() {
         <Route path="/Contactpage" element={<ContactPage />} />
         {/* link to About page */}
         <Route path="/About" element={<About/>} />
-        {/* link  to Qualified Insurance */}
-        <Route path="/Qualified" element={<Qualified/>} />
         {/* link to Product page */}
         <Route path="/Product" element={<Product/>} />
         {/* link to homepage */}

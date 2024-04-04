@@ -9,6 +9,7 @@ import '../assets/Home.css';
 import CircleImage from "../Components/CircleImage"
 import BoxType from "../Components/Applications"
 import Map from "../Components/Map"
+import Footer from '../Components/Footer';
 
 export default function HomeBanner() {
   return (
@@ -65,6 +66,11 @@ export default function HomeBanner() {
         <img src={Boxes}/>
         <Map style={{border:0,width:"600px",height:"300px",boxShadow:"grey 0px 0px 20px -4px"}}/>
       </div>
+
+      {/* Footer */}
+      <div className='mt-9'></div>
+      <Footer/>
     </div>
+
   )   
 }
